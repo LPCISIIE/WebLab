@@ -29,4 +29,4 @@ Pour lancer un noeud maître, on utilise la commande suivante :
 Pour lancer un noeud esclave, on utilise cette commande : 
 	**npm run slave**
 
-Au moins un noeud maître et un noeud esclave sont nécessaires pour pouvoir utiliser les fonctionnalité de l'application.
+Il faut impérativement un seul noeud maître et au moins un noeud esclave pour pouvoir utiliser les fonctionnalité de l'application.
