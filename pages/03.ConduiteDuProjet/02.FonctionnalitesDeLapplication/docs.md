@@ -14,6 +14,7 @@ taxonomy:
 - **Résultats en temps réel :** un aperçu des données présente sur la sortie standard seront affichés pour l’utilisateur. 
 - **Exécutions parallèles :** l’application sera capable d'exécuter des algorithmes en même temps.
 
+<br>
 
 ## 2. Fonctionnalités User Interface (Front-End)
 - **Progression :** une barre de progression permettra d’apprécier la durée restante de l’exécution de l’algorithme sélectionné.
