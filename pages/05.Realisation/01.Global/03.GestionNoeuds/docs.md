@@ -12,4 +12,6 @@ A chaque connexion/déconnexion d’un noeud esclave, le noeud maître va être 
 
 ![](../03.GestionNoeuds/diagram-03.png)
 
-La fonction on() va prévenir/alerter le noeud maître lors d’un événement d’un noeud esclave (connexion ou déconnexion) qui va ensuite notifier le client grâce à la fonction emit().
+La fonction on() va prévenir/alerter le noeud maître lors d’un événement d’un noeud esclave (connexion ou déconnexion) qui va ensuite notifier le client grâce à la fonction emit(). 
+
+Si un client se connecte après cette opération il pourra tout de même recevoir la liste des noeuds connectés à l'application en envoyant simplement un signal indiquant au noeud maître qu'il faut lui envoyer cette liste.
