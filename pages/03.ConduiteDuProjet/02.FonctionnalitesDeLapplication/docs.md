@@ -4,8 +4,6 @@ taxonomy:
     category: docs
 ---
 
-# Fonctionnalités de l'application
-
 ## 1. Fonctions serveur (Back-end)
 
 - **Informations machines :** l’utilisateur peut avoir accès à l’état des machines connectés et à leurs caractéristiques à tout moment (utilisation du processeur, de la mémoire vive, etc…).

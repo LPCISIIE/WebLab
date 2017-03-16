@@ -4,8 +4,6 @@ taxonomy:
     category: docs
 ---
 
-# Étude de l’existant
-
 ## 1. Exécution des algorithmes
 http://codepen.io: Cette application à pour but de tester du code HTML CSS JavaScript directement sur un éditeur en ligne. On pourrait donc exécuter un algorithme en javascript qui ressortirait les résultats en HTML dans cette application. La limite de codepen est le fait qu’il n’y a pas la possibilité de faire de vrais tests d’IA : le site interprète directement le code et ne retourne pas de statistiques, de plus on ne peut injecter qu’un algorithme à la fois.
 
