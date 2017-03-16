@@ -4,6 +4,6 @@ taxonomy:
     category: docs
 ---
 
-# Réalisation de l'application
+# Architecture détaillée
 
-De la présentation de l'architecture globale à l'étude en profondeur de l'application.
+L'Architecture détaillée de l'application pour en savoir plus sur comment les différentes parties communiquent.

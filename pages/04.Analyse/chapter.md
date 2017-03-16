@@ -1,9 +1,9 @@
 ---
-title: Réalisation de l'application
+title: Analyse de l'application
 taxonomy:
     category: docs
 ---
 
-# Réalisation de l'application
+# Architecture globale
 
-De la présentation de l'architecture globale à l'étude en profondeur de l'application.
+L'Architecture globale de l'application, pensée durant la phase de conception.
