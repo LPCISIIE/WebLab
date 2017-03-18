@@ -1,10 +1,10 @@
 ---
-title: Execution des algorithmes
+title: Exécution des algorithmes
 taxonomy:
     category: docs
 ---
 
-## Envoyer un algorithmes
+## Envoyer un algorithme
 L'exécution d'un algorithme procède en différentes étapes. Tout d'abord l'utilisateur doit rentrer un code JavaScript au format ECMAscript 5.1, le valider puis sélectionner un noeud esclave en indiquant le nombre d'itérations qu'il souhaite effectuer sur ce même algorithme.
 
 ## Déroulement
