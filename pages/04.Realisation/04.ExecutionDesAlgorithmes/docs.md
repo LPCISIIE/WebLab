@@ -31,8 +31,6 @@ Lors de la dernière itération, les données globales représentant l'ensemble 
 
 L'avantage du fork est de pouvoir prendre controle sur l'exécution globale du script, on pourra ainsi le stopper ou le mettre en pause via des signaux UNIX (fonctions n'existants pas dans les machines virtuelles de node)
 
-![](diagram.jpg)
-
 
 ## Ciblage de variables et fonctionnement de la Sandbox
 Dans notre exemple de code précédent nous avons indiqué en commentaire ``` //#output nomDeVariable ```, cette syntaxe permet de demander à l'application de récupérer à la fin de l'algorithme la valeur de cette variable et de l'injecter dans notre graphique.
@@ -42,3 +40,5 @@ Lorsqu'un client envoie son script avec le nombre d'itérations et qu'il est tra
 
 ### Une sandbox ?
 Une sandbox est un objet JavaScript (JSON) qui va être lié au script avant son exécution. Lors de l'exécution le script va avoir accès à l'objet sandbox via l'[objet global](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux) (objet de portée globale). Ainsi il sera possible d'exploiter l'objet sandbox après l'exécution de l'algorithme et de récupérer les nouvelles valeurs de chaque attributs (ici les variables demandées par l'utilisateur).
+
+![](diagram.jpg)
