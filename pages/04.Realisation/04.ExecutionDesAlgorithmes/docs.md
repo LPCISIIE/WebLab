@@ -39,6 +39,6 @@ Dans notre exemple de code précédent nous avons indiqué en commentaire ``` //
 Lorsqu'un client envoie son script avec le nombre d'itérations et qu'il est transmis au processus fils, ce dernier va parser l'algorithme; quand il va trouver cette syntaxe il va ajouter la variable concernée à la sandbox de la machine virtuelle.
 
 ### Une sandbox ?
-Une sandbox est un objet JavaScript (JSON) qui va être lié au script avant son exécution. Lors de l'exécution le script va avoir accès à l'objet sandbox via l'[objet global](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux) (objet de portée globale). Ainsi il sera possible d'exploiter l'objet sandbox après l'exécution de l'algorithme et de récupérer les nouvelles valeurs de chaque attributs (ici les variables demandées par l'utilisateur).
+Une sandbox est un objet JavaScript (JSON) qui va être lié au script avant son exécution. Lors de l'exécution le script va avoir accès à l'objet sandbox via l'[objet global](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux) (objet de portée globale). Ainsi l'algorithme va pouvoir éditer les variables d'un objet externe à la machine virtuelle cela permettra doncd'exploiter l'objet sandbox après l'exécution de celui-ci et de récupérer les nouvelles valeurs de chaque attributs (ici les variables demandées par l'utilisateur).
 
 ![](diagram.jpg)
