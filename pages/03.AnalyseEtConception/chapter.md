@@ -1,9 +1,9 @@
 ---
-title: Conduite du Projet
+title: Analyse et Conception
 taxonomy:
     category: docs
 ---
 
-# Conduite du projet
+# Analyse et Conception
 
 Cette partie est consacrée à l'étude préalable et la conception de l'application.
