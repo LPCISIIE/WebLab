@@ -20,6 +20,7 @@ Outre cet aspect, node.js est basé sur un système d'événement ce qui signifi
 ## Technologies supplémentaires utilisées
 Pour développer ce projet nous avons utilisé diverses libraries allant du front-end jusqu'au watcher de JavaScript.
 
+
 ### NPM
 
 NodeJS dispose d'une large communauté qui partage ses modules au travers du gestionnaire de paquet [NPM](https://www.npmjs.com/). Il permet ainsi de télécharger rapidement un module mais aussi ses différentes dépendances.
@@ -40,3 +41,13 @@ Ce script est déclaré dans le fichier [package.json](https://github.com/TPCISI
     "monScript": "echo \"Exécution de mon script !\" && exit 1"
   },
 ```
+
+### Express.js
+[Express.js](https://expressjs.com/) est un framework incontournable de node.js, il est semblable en son usage au micro-framework PHP Slim : cette librairie gère uniquement les routes ainsi que les middlewares. <br>
+*Express est d’ailleurs utilisé par de grandes entreprises comme Netflix ou encore MySpace.*
+
+### Nodemon
+[Nodemon](https://nodemon.io/) est un utilitaire qui permet de relancer le serveur dès que le code du programme y est modifié. *C’est donc un genre de watcher.*
+
+### Semantic UI
+[Semantic UI](https://semantic-ui.com) est un framework front-end intégrant de nombreuses fonctionnalitées, son esthétisme et la cohérence linguistique de ses classes CSS en font une force. Par exemple, une image floatée à droite se verra attribuer les classes `ui floated right image`.
