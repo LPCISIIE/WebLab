@@ -1,5 +1,5 @@
 ---
-title: Quel design-patern ?
+title: Structure
 taxonomy:
     category: docs
 ---
@@ -9,3 +9,7 @@ Il y a ainsi une distinction entre les modèles (données), les vues (affichage)
 Le diagramme ci-dessous démontre comment ce design-pattern agit lors d’une boucle requête/réponse :
 
 ![](diagram-01.png)
+
+En plus de cet aspect, notre application est gérée en différentes sections : le serveur principal est un noeud maître contenant plusieurs noeuds : noeuds-esclaves, ces derniers ont pour rôle d'exécuter les algorithmes envoyés par l’utilisateur.
+
+![](diagram-02.png)
