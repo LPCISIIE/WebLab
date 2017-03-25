@@ -20,4 +20,4 @@ Concernant notre application, pour chaque connexion/déconnexion d’un noeud es
 
 La fonction on() va pouvoir intercepter un évenement tel que la connexion ou déconnexion d'un noeud esclave et pourra alors prévenir les entités écoutantes (appelées listeners) via la fonction emit() qui a pour rôle de les notifier. 
 
-* Note: Si un client se connecte après l'ajout des noeuds il pourra tout de même recevoir la liste des noeuds connectés à l'application en envoyant simplement un signal indiquant au noeud maître qu'il faut lui transmettre cette liste. *
+*Note: Si un client se connecte après l'ajout des noeuds il pourra tout de même recevoir la liste des noeuds connectés à l'application en envoyant simplement un signal indiquant au noeud maître qu'il faut lui transmettre cette liste.*
