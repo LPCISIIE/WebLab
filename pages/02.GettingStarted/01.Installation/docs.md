@@ -13,6 +13,7 @@ Une fois les deux gestionnaires installés, allez à la racine du projet et ouvr
 entrer la ligne suivante :
 ```bash
 $ npm install
+$ bower install
 ```
 
 npm va s'occuper d'installer tous les paquets nécessaires au bon fonctionnement de WebLab, une fois
