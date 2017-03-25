@@ -4,14 +4,13 @@ taxonomy:
     category: docs
 ---
 
-# WEBLab
+# WebLab
 
 ## 1. Introduction
 Au cours de notre année de licence professionnelle **C**oncepteur **I**ntégrateur de **S**ystèmes **I**nternet/**I**ntranet pour l’**E**ntreprise à l’**Université de Lorraine**, nous devions réaliser une application web sous Node.js sur la période Octobre 2016 - Mars 2017.
 
-Ce projet devait être réalisé en groupe. Notre groupe était constitué de 4 membres issues de la section LP2 : 
+Ce projet devait être réalisé en groupe. Notre groupe était constitué de 3 membres issues de la section LP2 : 
 
-- Maxence ANTOINE
 - Xavier CHOPIN
 - Corentin LABROCHE
 - David LEBRUN
