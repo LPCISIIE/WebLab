@@ -10,13 +10,17 @@ Pour lancer un algorithme, il est d'abord important d'avoir un noeud esclave de 
 je vous invite à consulter la partie du chapitre 2, intitulée *Pour Commencer*.
 
 
-## Bon usage de l'écrite d'un algorithme
-Comme précisé dans le chapitre précédent, l'application WebLab ne supporte uniquement du code JavaScript allant jusqu'à la version 5.1 d'**EcmaScript** oubliez donc les variables de types ` let ` et fonctions fléchés du type 
+## Bon usage de l'écriture d'un algorithme
+Comme précisé dans le chapitre précédent, l'application WebLab supporte uniquement du code JavaScript allant jusqu'à la version 5.1 d'**EcmaScript** oubliez donc les variables de types ` let ` et fonctions fléchées du type:
 ```javascript
 ([param] [, param]) => {
-//instructions 
+    // Do something...
 }
 ```
+
+L'application n'est pour l'instant pas protégée contre les attaques connues de types fork bomb ou boucles infinies.
+
+### Syntaxe
 
 *Input* : Cette syntaxe sert à préciser quelles variables doivent conserver leurs valeurs entre les itérations.
 Il est possible d'initialiser une valeur input de la sorte : 
