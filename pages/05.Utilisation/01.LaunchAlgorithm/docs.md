@@ -4,30 +4,34 @@ taxonomy:
     category: docs
 ---
 
-# Avant toutes choses
+## Préambule
 
 Pour lancer un algorithme, il est d'abord important d'avoir un noeud esclave de libre pour l'éxecuter, si vous ne savez pas comment faire,
-je vous invite à consulter la partie "Obtenir WebLab" du chapitre 2. Pour Commencer.
+je vous invite à consulter la partie du chapitre 2, intitulée *Pour Commencer*.
 
 
-# Structure : inputs et outputs
+## Bon usage de l'écrite d'un algorithme
+Comme précisé dans le chapitre précédent, l'application WebLab ne supporte uniquement du code JavaScript allant jusqu'à la version 5.1 d'**EcmaScript** oubliez donc les variables de types ` let ` et fonctions fléchés du type 
+```javascript
+([param] [, param]) => {
+//instructions 
+}
+```
 
-*Input* : A mettre n'importe où dans le code (avant l'utilsiation de la variable), le input sert à préciser quelles variables doivent conserver leurs valeurs entre les itérations.
+*Input* : Cette syntaxe sert à préciser quelles variables doivent conserver leurs valeurs entre les itérations.
 Il est possible d'initialiser une valeur input de la sorte : 
 
 ```javascript
-#input:lenomdevotrevariable=valeur-a-la-premiere-iteration
+#input:variableName=FirstValueAtFirstIteration
 ```
 
-*Output* : A mettre n'importe où dans le code (avant l'utilisation de la variable), le output sert à définir quelles variables seront utilisées pour l'affichage de statistiques, il est possible de les initialiser de la manière suivante :
+*Output* : Cette syntaxe sert à définir quelles variables seront utilisées pour l'affichage de statistiques, il est possible de les initialiser de la manière suivante :
 
 ```javascript
-#output:lenomdevotrevariable
+#output:variableName
 ```
 
-(à confirmer) A noter que les input et output peuvent être mis dans n'importe quel ordre, et n'importe ou dans le code, tant que ce dernier est placé avant l'utilisation de la variable associée.
 
-
-Voici un récapitulatif du tutoriel en image.
+## Utilisation de l'application
 
 ![](tuto.jpg)
