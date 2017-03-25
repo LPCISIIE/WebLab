@@ -26,18 +26,29 @@ L'application n'est pour l'instant pas protégée contre les attaques connues de
 Il est possible d'initialiser une valeur input de la sorte : 
 
 ```javascript
-#input:variableName=firstValueAtFirstIteration
+//#input:variableName=firstValueAtFirstIteration
 var variableName;
 ```
 
 *Output* : Cette syntaxe sert à définir quelles variables seront utilisées pour l'affichage de statistiques, il est possible de les initialiser de la manière suivante :
 
 ```javascript
-#output:variableName
+//#output:variableName
 var variableName = 42;
 ```
 
+### Exemple 
+Plusieurs exemples sont disponibles dans dossier [`WebLab/AlgoSample`](https://github.com/TPCISIIE/WebLab/tree/master/AlgoSample)
+Voici un algorithme représentant les fonctions mathématiques sinus et cosinus : 
 
-## Utilisation de l'application
+```javascript
+//#input:sin=0
+//#input:cos=0
+//#input:i=0
+//#output:sin
+//#output:cos
 
-![](tuto.jpg)
+sin=Math.sin(i)
+cos=Math.cos(i)
+i=Number(i)+0.4
+```
