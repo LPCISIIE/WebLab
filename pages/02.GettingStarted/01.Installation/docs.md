@@ -1,16 +1,15 @@
 ---
-title: Obtenir WEBLab
+title: Obtenir WebLab
 taxonomy:
     category: docs
 ---
 
-# Installation
+## Installation
 
-L'installation de Weblab nécessite d'installer **npm** en premier lieu,
-le gestionnaire de paquets officiel de Node.js, il est possible de l'obtenir
-à cette [adresse](https://www.npmjs.com/).
+L'installation de WebLab nécessite d'installer [**npm**](https://www.npmjs.com/) en premier lieu,
+le gestionnaire de paquets officiel de Node.js. Il faudra de plus installer [**bower**](https://bower.io) un autre gestionnaire de paquets, dédié aux librairies front-end.
 
-Une fois npm installé, allez à la racine du projet et ouvrez une fenêtre de commande, pour y
+Une fois les deux gestionnaires installés, allez à la racine du projet et ouvrez une fenêtre de commande, pour y
 entrer la ligne suivante :
 ```bash
 $ npm install
@@ -19,7 +18,7 @@ $ npm install
 npm va s'occuper d'installer tous les paquets nécessaires au bon fonctionnement de WebLab, une fois
 que tous les paquets sont installés, vous pouvez d'ore et déjà utiliser l'application.
 
-# Premier lancement
+## Premier lancement
 
 Avant d'accéder à l'application WebLab, il est nécessaire de créer des noeuds : des noeuds maîtres et des noeuds esclaves.
 
@@ -36,4 +35,4 @@ Pour lancer un noeud esclave, on utilise cette commande :
 $ npm run slave
 ```
 
-Il faut impérativement un seul noeud maître et au moins un noeud esclave pour pouvoir utiliser les fonctionnalité de l'application.
+Il faut impérativement un seul noeud maître et au moins un noeud esclave pour pouvoir utiliser les fonctionnalités de l'application.
