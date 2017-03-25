@@ -12,7 +12,7 @@ Son approche non bloquante le distingue face à la concurrence puisqu’elle per
 
 Outre cet aspect, Node.js est basé sur un système d'événement ce qui signifie que les objets créés émettront des événements tout au long de leur cycle de vie. Un point non négligeable en vue du sujet.
 
-[](diagram.jpg)
+![](diagramm.jpg)
 
 
 
