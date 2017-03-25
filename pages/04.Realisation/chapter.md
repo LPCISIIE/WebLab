@@ -6,4 +6,4 @@ taxonomy:
 
 # Architecture globale
 
-L'Architecture globale de l'application, pensée durant la phase de conception.
+L'Architecture globale de l'application, pensée durant la phase de réalisation.
