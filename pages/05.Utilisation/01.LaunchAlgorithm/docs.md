@@ -26,13 +26,15 @@ L'application n'est pour l'instant pas protégée contre les attaques connues de
 Il est possible d'initialiser une valeur input de la sorte : 
 
 ```javascript
-#input:variableName=FirstValueAtFirstIteration
+#input:variableName=firstValueAtFirstIteration
+var variableName;
 ```
 
 *Output* : Cette syntaxe sert à définir quelles variables seront utilisées pour l'affichage de statistiques, il est possible de les initialiser de la manière suivante :
 
 ```javascript
 #output:variableName
+var variableName = 42;
 ```
 
 
