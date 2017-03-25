@@ -1,13 +1,8 @@
 ---
-title: Lancer un algorithme
+title: Ecrire un algorithme
 taxonomy:
     category: docs
 ---
-
-## Préambule
-
-Pour lancer un algorithme, il est d'abord important d'avoir un noeud esclave de libre pour l'éxecuter, si vous ne savez pas comment faire,
-je vous invite à consulter la partie du chapitre 2, intitulée *Pour Commencer*.
 
 
 ## Bon usage de l'écriture d'un algorithme
