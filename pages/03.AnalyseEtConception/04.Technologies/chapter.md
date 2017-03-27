@@ -46,6 +46,9 @@ Ce script est déclaré dans le fichier [package.json](https://github.com/TPCISI
 [Express.js](https://expressjs.com/) est un framework incontournable de node.js, il est semblable en son usage au micro-framework PHP Slim : cette librairie gère uniquement les routes ainsi que les middlewares. <br>
 *Express est d’ailleurs utilisé par de grandes entreprises comme Netflix ou encore MySpace.*
 
+### Socket.io 
+[Socket.io](https://socket.io/) est une librairie qui se base sur plusieurs techniques différentes qui permettent la communication en temps réel, la plus connue d'entre elles, et la plus récente, est WebSocket (apparue plus ou moins en même temps que HTML5, c'est une API JavaScript). WebSocket est une fonctionnalité supportée par l'ensemble des navigateurs récents. Elle permet un échange bilatéral synchrone entre le client et le serveur.
+
 ### Nodemon
 [Nodemon](https://nodemon.io/) est un utilitaire qui permet de relancer le serveur dès que le code du programme y est modifié. *C’est donc un genre de watcher.*
 
