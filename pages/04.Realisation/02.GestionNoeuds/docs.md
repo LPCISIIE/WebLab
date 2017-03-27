@@ -5,13 +5,7 @@ taxonomy:
 ---
 
 ## Implémentation du temps réel
-Dû aux besoins de notre application, la gestion des noeuds (fonctionnement et communication entre les différents types de noeud) a été développé pour fonctionner en temps réel. Cette fonctionnalité est possible grâce au classique design pattern Observateur, implémenté par Socket.io.
-
-Socket.io est une librairie qui se base sur plusieurs techniques différentes qui permettent la communication en temps réel, la plus connue d'entre elles, et la plus récente, est WebSocket (apparue plus ou moins en même temps que HTML5, c'est une API JavaScript). WebSocket est une fonctionnalité supportée par l'ensemble des navigateurs récents. Elle permet un échange bilatéral synchrone entre le client et le serveur. Voici un schéma représentant le fonctionnement de cette librairie.
-
-
-![](diagram2.png)
-
+Dû aux besoins de notre application, la gestion des noeuds (fonctionnement et communication entre les différents types de noeud) a été développé pour fonctionner en temps réel. Cette fonctionnalité est possible grâce au classique design pattern Observateur, implémenté par [Socket.io](https://webetu.iutnc.univ-lorraine.fr/www/labroche2u/weblab-docs/AnalyseEtConception/Technologies).
 
 ## Fonctionnement d'Observateur dans WebLab
 Concernant notre application, pour chaque connexion/déconnexion d’un noeud esclave, le noeud maître sera notifié et va ensuite mettre à jour sa liste de noeud esclaves en suivant ce modèle : 
