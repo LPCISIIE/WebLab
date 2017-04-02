@@ -17,7 +17,7 @@ $.getJSON('/chart/result', {param1: 'value1'}, function (json, textStatus) {
     }
     $.each(slave.result, function (index, result) {
       $.each(result, function (index, variable) {
-        if (index == 'iterations') {
+        if (index === 'iterations') {
           iterations.push(result.iterations)
         } else {
           data[index].push(variable)
@@ -80,12 +80,12 @@ function createChart (slaveId, data, iterations, name) {
                         $('<option>').prop('value', 'pie').text('pie'),
                         $('<option>').prop('value', 'bubble').text('bubble')
                       )
-  $('.containerChart').append($chart.append($title, $canvas, $chooseGraph))
+  $('.containerChartSlaves').append($chart.append($title, $canvas, $chooseGraph))
   let datasets = []
   $.each(data, function (index, el) {
     let x = []
     $.each(el, function (i, n) {
-        x.push(n)
+      x.push(n)
     })
     datasets.push({
       label: index,
@@ -123,7 +123,7 @@ function createChartAvg (slaveId, data, variable, name) {
                         $('<option>').prop('value', 'pie').text('pie'),
                         $('<option>').prop('value', 'bubble').text('bubble')
                       )
-  $('.containerChart').append($chart.append($title, $canvas, $chooseGraph))
+  $('.containerChartAverage').append($chart.append($title, $canvas, $chooseGraph))
   let datasets = []
   let iterations = []
   for (var i = 0; i < Object.keys(data).length; i++) {
@@ -176,3 +176,9 @@ function getRandomColor () {
 function sortByIterations (key1, key2) {
   return key1.iterations > key2.iterations
 }
+
+$('body').on('click', '.anchor', function (event) {
+  $('html, body').stop().animate({
+    scrollTop: $($(this).attr('href')).offset().top - 70
+  }, 400)
+})

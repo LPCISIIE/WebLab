@@ -4,7 +4,6 @@
 function addSlave (slaveObject, state) {
   if (!$('.' + slaveObject.id).length) {
     let serverName = 'Server ' + slaveObject.ip + ':' + slaveObject.port
-    let slave = $('<div>').addClass('slave ' + slaveObject.id)
     let card = createHTMLCard(serverName, slaveObject)
     createHTMLHardware(serverName, slaveObject)
     $('#container1').append(card)
@@ -153,7 +152,7 @@ function changeStatus (slaveId, status, progression) {
         $('.' + slaveId).find('.launch').fadeOut(400)
         $('.' + slaveId).find('.paused').fadeOut(400)
         $('.' + slaveId).find('.resume').fadeIn(400)
-      }, 200);
+      }, 200)
 
       break
     default:

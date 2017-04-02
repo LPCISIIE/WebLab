@@ -1,10 +1,45 @@
 {% extends 'layout.twig' %}
 {% block body %}
   <div id="result" class="ui main container" style="display: block;">
-    <h1><a href="/"><i class="teal arrow left icon"></i></a>Result of the algorithm</h1>
-    <div class="containerChart">
+    <div class="ui grid">
+      <div class="twelve wide column">
+        <section class="ui piled segment" id="slavesSegment">
+          <h1 class="ui aligned">Result of Slaves</h1>
+          <div class="containerChartSlaves">
+          </div>
+        </section>
+
+        <section class="ui piled segment" id="averageSegment">
+          <h1 class="ui aligned">Average</h1>
+          <div class="containerChartAverage">
+          </div>
+        </section>
+      </div>
+      <div class="four wide column">
+        <section class="ui piled segment" id="menuSegment">
+          <h1 class="ui aligned">Menu</h1>
+          <div class="ui middle aligned selection list">
+            <a class="anchor" href="#slavesSegment">
+              <div class="item">
+                <i class="server icon"></i>
+                Slaves
+              </div>
+            </a>
+          </div>
+          <h1 class="ui aligned">Statistics</h1>
+          <div class="ui middle aligned selection list">
+            <a class="anchor" href="#averageSegment">
+              <div class="item">
+                <i class="percent icon"></i>
+                Average
+              </div>
+            </a>
+          </div>
+        </section>
+      </div>
 
     </div>
+
     <script src="./bower/chart.js/dist/Chart.min.js"></script>
     <script src="./js/controller/chart.js"></script>
   </div>

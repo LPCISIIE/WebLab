@@ -1,24 +1,10 @@
 /**
  * This file represents the child of the process, it runs a VM to execute the algorithm
  */
-const {NodeVM, VMScript} = require('vm2')
 const perfy = require('perfy')
-const util = require('util')
 const VM = require('vm')
 let eachr = require('util-each')
 
-let virtualMachine = new NodeVM({
-  wrapper: 'none',
-  require: {
-    timeout: 1000,
-    external: true,
-    mock: {
-      fs: {
-        readFileSync () { return 'Nice try dude!' }
-      }
-    }
-  }
-})
 process.on('message', (m) => {
   if (m.algorithm != null && m.iteration != null) {
     let result = 'Undefined'
@@ -44,7 +30,7 @@ process.on('message', (m) => {
         let sandboxResult = {}
         eachr(sandbox, function (sandboxValue, sandboxKey) {
           eachr(m.output, function (outputValue, outputKey) {
-            if (sandboxKey == outputValue) {
+            if (sandboxKey === outputValue) {
               sandboxResult[outputValue] = sandboxValue
             }
           })

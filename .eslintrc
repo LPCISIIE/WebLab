@@ -8,6 +8,9 @@
     "globals": {
         "io": true,
         "editor":true,
-        "addSlave":true
+        "addSlave":true,
+        "changeStatus":true,
+        "toggleSlaves":true,
+        "Chart":true
     }
 }
