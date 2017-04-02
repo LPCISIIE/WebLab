@@ -70,7 +70,7 @@ socket.on('displayResult', (data) => {
   let iteration = data.result.length
   let percent = (iteration * 100) / data.iterations
   // create finish status
-  changeStatus(data.id, data.status, percent + '%')
+  changeStatus(data.id, data.status, percent.toFixed(1) + '%')
 })
 
 /**
