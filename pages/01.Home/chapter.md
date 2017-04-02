@@ -24,7 +24,6 @@ L’objectif de ce projet est de concevoir et réaliser une application Web qui 
 - suivre le progrès de l’exécution,
 - récupérer les résultats et les afficher.
 Il ne s’agit pas de développer les algorithmes d’IA (ils seront simulés) mais l’infrastructure qui permettra de suivre leur exécution.
-Objectifs du projet
 
 ## 3. Objectifs du projet
 L’objectif à terme de ce projet, est de pouvoir tester un algorithme avec un grand nombre de paramètre différent et de faire des calculs de statistiques sur les résultats produits.
