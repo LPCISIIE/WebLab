@@ -10,10 +10,10 @@ En effet c’est tout le coeur du projet : la complexité à exécuter des algor
 Pour un projet web, node.js est apparu comme une évidence. Véritablement, “Node” est une plateforme construite sur le moteur JavaScript v8 (Google) qui permet de développer des applications avec le langage JavaScript.
 Son approche non bloquante le distingue face à la concurrence puisqu’elle permet d’utiliser les entrées et sorties (Input / Output) de manière asynchrone comme le présente ce diagramme. <br>
 
+![](diagram.jpg)
 
 Outre cet aspect, node.js est basé sur un système d'événement ce qui signifie que les objets créés émettront des événements tout au long de leur cycle de vie. Un point non négligeable en vue du sujet.
 
-![](diagram.jpg)
 
 
 

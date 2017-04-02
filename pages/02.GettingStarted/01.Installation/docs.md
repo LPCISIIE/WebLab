@@ -26,14 +26,21 @@ Avant d'accéder à l'application WebLab, il est nécessaire de créer des noeud
 Les noeuds esclaves sont ceux qui éxecutent les algorithmes, et crééent les données de résultat.
 Les noeuds maîtres, quand à eux, sont ceux qui donnent des ordres aux noeuds esclaves, par l'intermediaire de l'utilisateur, il communiquent avec eux afin de lancer les algorithmes, récuperer les données de résultat, etc...
 
+### Noeud maître
 Pour lancer un noeud maître, on utilise la commande suivante : 
 ```bash
 $ npm run master
 ```
+Répondez ensuite aux questions du terminal.
 
+### Noeud esclave
 Pour lancer un noeud esclave, on utilise cette commande :
 ```bash
 $ npm run slave
 ```
+Répondez ensuite aux questions du terminal.
 
-Il faut impérativement un seul noeud maître et au moins un noeud esclave pour pouvoir utiliser les fonctionnalités de l'application.
+### Dernière étape
+*Note: Il faut impérativement un seul noeud maître et au moins un noeud esclave pour pouvoir utiliser les fonctionnalités de l'application.*
+
+Enfin, rendez-vous à l'adresse: http://localhost:8081
