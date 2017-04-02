@@ -22,7 +22,10 @@ Il est possible d'initialiser une valeur input de la sorte :
 
 ```javascript
 //#input:variableName=firstValueAtFirstIteration
-var variableName;
+
+// Do something...
+
+var webLab = maFonction(variableName) 
 ```
 
 *Output* : Cette syntaxe sert à définir quelles variables seront utilisées pour l'affichage de statistiques, il est possible de les initialiser de la manière suivante :
