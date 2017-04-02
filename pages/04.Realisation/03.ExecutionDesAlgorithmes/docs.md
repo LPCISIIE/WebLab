@@ -26,8 +26,8 @@ Suite à la première étape, le noeud maître va envoyer via socket.io les donn
 Pour exécuter l'algorithme, le processus fils va créer une machine virtuelle (librairie vm de node.js) puis y injecter le code JavaScript. 
 Afin de lancer x fois l'algorithme comme l'utilisateur le souhaite, une boucle d'itérations correspondant au nombre de répétitions demandé sera placé autour de la méthode exécutant l'algorithme.
 
-A chaque fin d'itération des données seront envoyées via un [tube](https://fr.wikipedia.org/wiki/Tube_(shell)) liant le processus père et fils, puis passant par le noeud maître jusqu'au client pour prévenir l'utilisateur de l'avancée de l'exécution du script.
-Lors de la dernière itération, les données globales représentant l'ensemble de l'exécution de l'algorithme (toutes les itérations) seront envoyés au client permettant ainsi de faire des graphiques.
+A chaque fin d'itération des données seront envoyées via un [tube](https://fr.wikipedia.org/wiki/Tube_(shell)) liant le processus père et fils, puis passant par le noeud maître jusqu'au client pour prévenir l'utilisateur de l'avancée de l'exécution du script. Il sera également possible de visualiser les premiers résultats sous-forme de graphique en cliquant simplement sur "Afficher les résultats". <br>
+Lors de la dernière itération, les données globales représentant l'ensemble de l'exécution de l'algorithme (toutes les itérations) seront envoyés au client lorsqu'il voudra visualiser les résultats, permettant ainsi de faire des graphiques finaux.
 
 L'avantage du fork est de pouvoir prendre controle sur l'exécution globale du script, on pourra ainsi le stopper ou le mettre en pause via des signaux UNIX (fonctions n'existants pas dans les machines virtuelles de node)
 
