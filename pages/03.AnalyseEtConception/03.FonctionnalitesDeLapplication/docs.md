@@ -9,7 +9,7 @@ taxonomy:
 - **Informations machines :** l’utilisateur peut avoir accès à l’état des machines connectés et à leurs caractéristiques à tout moment (utilisation du processeur, de la mémoire vive, etc…).
 - **Résultats graphiques :** Le serveur calcule tous les résultats et met en forme ceux-ci afin que le client puisse afficher un graphique
 - **Modification à tout moment :** on peut modifier l’état de chaque noeuds (pause, reprise, ...)
-- **Résultats en temps réel :** un aperçu des données présente sur la sortie standard seront affichés pour l’utilisateur. 
+- **Résultats en temps réel :** un aperçu des données sera disponible sous-forme graphique durant la phase itération.
 - **Exécutions parallèles :** l’application sera capable d'exécuter des algorithmes en même temps.
 
 <br>
