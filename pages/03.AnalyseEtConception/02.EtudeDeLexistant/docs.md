@@ -5,11 +5,11 @@ taxonomy:
 ---
 
 ## 1. Exécution des algorithmes
-http://codepen.io: Cette application à pour but de tester du code HTML CSS JavaScript directement sur un éditeur en ligne. On pourrait donc exécuter un algorithme en javascript qui ressortirait les résultats en HTML dans cette application. La limite de codepen est le fait qu’il n’y a pas la possibilité de faire de vrais tests d’IA : le site interprète directement le code et ne retourne pas de statistiques, de plus on ne peut injecter qu’un algorithme à la fois.
+[Codepen.io](http://codepen.io): Cette application à pour but de tester du code HTML CSS JavaScript directement sur un éditeur en ligne. On pourrait donc exécuter un algorithme en javascript qui ressortirait les résultats en HTML dans cette application. La limite de codepen est le fait qu’il n’y a pas la possibilité de faire de vrais tests d’IA : le site interprète directement le code et ne retourne pas de statistiques, de plus on ne peut injecter qu’un algorithme à la fois.
 
-https://visualgo.net/sssp: Ce site permet de voir en temps réel ce qu’un algorithme effectue pour des structures. L'exécution prends la forme d’un graphique en temps réel. On peut changer les paramètres de l’algorithme pré-rentré dans le site mais pas le code en lui même.  
+[Visualgo.net](https://visualgo.net/sssp): Ce site permet de voir en temps réel ce qu’un algorithme effectue pour des structures. L'exécution prends la forme d’un graphique en temps réel. On peut changer les paramètres de l’algorithme pré-rentré dans le site mais pas le code en lui même.  
 
-http://raffinat.perso.univ-pau.fr/plurialgo/gwt/index.html: cette application permet d’éxecuter des algorithmes dans les languages de type python algobox ou carmetal. Les données ne sont pas en temps réel et ne permettent pas de faire de statistiques..
+[Plurialgo](http://raffinat.perso.univ-pau.fr/plurialgo/gwt/index.html): cette application permet d’éxecuter des algorithmes dans les languages de type python algobox ou carmetal. Les données ne sont pas en temps réel et ne permettent pas de faire de statistiques..
 
 ## 2. Calculs statistiques sur les sorties
 Malgré de nombreuses recherches, aucun site trouvé ne correspondait à l’exploitation des résultats d’un algorithme.
