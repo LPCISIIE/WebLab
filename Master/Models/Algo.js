@@ -1,5 +1,3 @@
-const readline = require('readline')
-
 let Algo = function () {
   let algo
   let output = []

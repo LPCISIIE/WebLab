@@ -1,5 +1,3 @@
-let algo = require('../Models/Algo')
-
 let Slaves = function () {
   let slaves = []
   return {

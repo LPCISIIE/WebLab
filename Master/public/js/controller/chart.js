@@ -17,7 +17,7 @@ $.getJSON('/chart/result', {param1: 'value1'}, function (json, textStatus) {
     }
     $.each(slave.result, function (index, result) {
       $.each(result, function (index, variable) {
-        if (index == 'iterations') {
+        if (index === 'iterations') {
           iterations.push(result.iterations)
         } else {
           data[index].push(variable)
@@ -85,7 +85,7 @@ function createChart (slaveId, data, iterations, name) {
   $.each(data, function (index, el) {
     let x = []
     $.each(el, function (i, n) {
-        x.push(n)
+      x.push(n)
     })
     datasets.push({
       label: index,
