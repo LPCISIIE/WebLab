@@ -37,7 +37,8 @@
     "request-promise": "^4.1.1",
     "socket.io": "^1.7.2",
     "twig": "^1.10.4",
-    "util-each": "^1.0.1"
+    "util-each": "^1.0.1",
+    "vm2": "^3.4.6"
   },
   "devDependencies": {
     "eslint": "^3.15.0",
