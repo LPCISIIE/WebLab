@@ -32,6 +32,7 @@ It was build to help mathematicians, statisticians and developers with their cod
 ```bash
  $ npm run master
  ``` 
+ Answer to the prompt. <br>
  
  ## 2. Add a slave server
  > Note: You can add many slave servers
@@ -39,8 +40,22 @@ It was build to help mathematicians, statisticians and developers with their cod
   $ npm run slave
   ``` 
   
- # Known issues
+Answer to the prompt. <br>
+
+# Example of algorithms
+## Scripts available there: 
+https://github.com/TPCISIIE/WebLab/tree/master/AlgoSample
+
+## Ouput
+Value you want in your charts
+
+## Input
+Value you don't want they get erased after each iterations (useless if your iteration number equals 1)
+
+
+# Known issues
   - Not immuned to all known methods of attacks `while(1<2){} /**cc @deadmau5**/, etc...`
+  - EcmaScript 6 is not supported
   
 # Authors
 - Xavier CHOPIN 
