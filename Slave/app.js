@@ -64,8 +64,8 @@ findPort('localhost', config.port.min, config.port.max, (ports) => {
     }
   }
 })
-function connect (adress, port) {
-  global.adressMaster = adress
+function connect (address, port) {
+  global.adressMaster = address
   let socket = ioClient.connect(global.adressMaster)
   // On notifie a master que l'esclave se connecte
   socket.emit('slaveConnection', {ip: ip.address(), port: port})
