@@ -61,16 +61,16 @@ function checkProtocol (protocol, adress) {
   } else if (protocol === 'https' || protocol === 'https://' || protocol === '2') {
     connect('https://' + adress)
   }
+
 }
 function connect (adress) {
   findPort({minPort: config.port.min, maxPort: config.port.max}).then((port) => {
-  console.log('le serveur est lancé sur le port ', port)
+  console.log('Slave connected on ', port)
     global.adressMaster = adress
     let socket = ioClient.connect(global.adressMaster)
     // On notifie a master que l'esclave se connecte
     socket.emit('slaveConnection', {ip: ip.address(), port: port})
     server.listen(port)
   }).catch((err) => {
-    console.log(err)
+    console.warn(err)
   })
-}
